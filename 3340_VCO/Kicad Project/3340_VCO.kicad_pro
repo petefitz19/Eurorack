@@ -55,7 +55,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "starved_thermal|166650000|78825000|a1bee59d-ac78-448a-bbab-c8ec7d86a37a|d4f1efb0-0193-4b26-a7e1-064d1009435c|F.Cu",
+        "starved_thermal|189600000|133170000|a1bee59d-ac78-448a-bbab-c8ec7d86a37a|eb691efa-ef46-4263-86aa-bc89a28f1e9c|F.Cu"
+      ],
       "meta": {
         "version": 2
       },
@@ -408,7 +411,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Untitled.kicad_pro",
+    "filename": "3340_VCO.kicad_pro",
     "version": 1
   },
   "net_settings": {

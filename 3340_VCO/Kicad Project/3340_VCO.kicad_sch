@@ -604,146 +604,6 @@
         )
       )
     )
-    (symbol "Connector:Conn_01x07_Socket" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 10.16 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_01x07_Socket" (at 0 -10.16 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, single row, 01x07, script generated" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_01x07_Socket_1_1"
-        (arc (start 0 -7.112) (mid -0.5058 -7.62) (end 0 -8.128)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (arc (start 0 -4.572) (mid -0.5058 -5.08) (end 0 -5.588)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (arc (start 0 -2.032) (mid -0.5058 -2.54) (end 0 -3.048)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 -7.62)
-            (xy -0.508 -7.62)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 -5.08)
-            (xy -0.508 -5.08)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 -2.54)
-            (xy -0.508 -2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 0)
-            (xy -0.508 0)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 2.54)
-            (xy -0.508 2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 5.08)
-            (xy -0.508 5.08)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 7.62)
-            (xy -0.508 7.62)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (arc (start 0 0.508) (mid -0.5058 0) (end 0 -0.508)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (arc (start 0 3.048) (mid -0.5058 2.54) (end 0 2.032)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (arc (start 0 5.588) (mid -0.5058 5.08) (end 0 4.572)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (arc (start 0 8.128) (mid -0.5058 7.62) (end 0 7.112)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (pin passive line (at -5.08 7.62 0) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 5.08 0) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 2.54 0) (length 3.81)
-          (name "Pin_3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 0 0) (length 3.81)
-          (name "Pin_4" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -2.54 0) (length 3.81)
-          (name "Pin_5" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -5.08 0) (length 3.81)
-          (name "Pin_6" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -7.62 0) (length 3.81)
-          (name "Pin_7" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Connector_Generic:Conn_02x05_Odd_Even" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 1.27 7.62 0)
         (effects (font (size 1.27 1.27)))
@@ -2385,7 +2245,7 @@
     (pin "1" (uuid f1050f56-a122-46aa-87cf-b3b297d5893a))
     (pin "2" (uuid d0d2d223-9b60-4a87-a708-598e7af59f80))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "C6") (unit 1)
         )
@@ -2417,7 +2277,7 @@
     (pin "T" (uuid 38e57b1c-9803-4f7b-9645-3b2503a017ab))
     (pin "TN" (uuid 2013bbe4-db59-471a-ba88-cb87d20ccf6e))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "J3") (unit 1)
         )
@@ -2451,7 +2311,7 @@
     (pin "1" (uuid 14489132-613f-458c-87eb-ccfb9a14e0d3))
     (pin "2" (uuid f2b08eae-e532-4181-b697-0e9fa283df40))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R13") (unit 1)
         )
@@ -2481,7 +2341,7 @@
     )
     (pin "1" (uuid 4060e386-210b-49fd-b271-a202321bd016))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR029") (unit 1)
         )
@@ -2511,7 +2371,7 @@
     )
     (pin "1" (uuid 5e26275d-697f-4731-b3df-f4fe375c30fd))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR01") (unit 1)
         )
@@ -2557,7 +2417,7 @@
     (pin "11" (uuid f0c1ec43-395d-4f04-93ea-e2fe886feec3))
     (pin "4" (uuid 33552f0c-7510-40e4-a92d-016ae82ae068))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "U2") (unit 2)
         )
@@ -2565,6 +2425,37 @@
       (project "CEM3340_VCO"
         (path "/eb39d4cc-e98a-4977-a50e-25b815ed0a29"
           (reference "U2") (unit 2)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x07_Pin") (at 121.92 90.17 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 095c5f0b-e339-44fa-a14a-09f602b67f1e)
+    (property "Reference" "J11" (at 119.38 78.74 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_1A" (at 118.11 100.33 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical" (at 121.92 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 121.92 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 77847f38-f82d-413d-828d-0f7c2d050079))
+    (pin "2" (uuid 966fe5d9-ff81-42f6-a303-487c68085f81))
+    (pin "3" (uuid 489e9cfd-83e6-4f83-b7de-22addc994d74))
+    (pin "4" (uuid c80f9649-19cd-4633-9eac-be783b664970))
+    (pin "5" (uuid 04e7008e-1c79-4bd4-9f04-811f205b8699))
+    (pin "6" (uuid ab7e92ef-5a8a-420e-8dbe-d5323a2fe1f4))
+    (pin "7" (uuid 1a6ffc3e-4ae7-4680-84cd-fcf240979d13))
+    (instances
+      (project "3340_VCO"
+        (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
+          (reference "J11") (unit 1)
         )
       )
     )
@@ -2591,7 +2482,7 @@
     (pin "1" (uuid 1dea2047-7728-4f1a-a67f-842f1acd8610))
     (pin "2" (uuid 4c86e499-d249-4c6b-94dc-0dd47c87bf46))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "C3") (unit 1)
         )
@@ -2625,7 +2516,7 @@
     (pin "1" (uuid 98a8f37e-c59f-4af9-b406-117dfeff7d8d))
     (pin "2" (uuid ff24869c-7ec7-477a-bfb8-3685767de0d6))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R34") (unit 1)
         )
@@ -2659,7 +2550,7 @@
     (pin "1" (uuid 177b7b99-815d-41a2-ab2a-1b3636d1e73a))
     (pin "2" (uuid 7c14f128-138f-484e-b1af-ea0403dbf5f0))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R17") (unit 1)
         )
@@ -2688,7 +2579,7 @@
     (pin "1" (uuid 293f8333-7cce-4c25-8f2d-16624d1040db))
     (pin "2" (uuid 0c6b7645-fb96-4330-b54c-e85fd768ca45))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R21") (unit 1)
         )
@@ -2707,7 +2598,7 @@
     (property "Reference" "J13" (at 156.21 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Conn_2A" (at 148.59 100.33 0)
+    (property "Value" "Conn_2B" (at 157.48 100.33 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical" (at 153.67 90.17 0)
@@ -2724,7 +2615,7 @@
     (pin "6" (uuid 0322275c-eb1e-4057-aed8-0a246e635f22))
     (pin "7" (uuid a5af1b55-5a9b-48d1-87e4-46315e393f56))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "J13") (unit 1)
         )
@@ -2753,7 +2644,7 @@
     (pin "1" (uuid 352d1a84-8525-4ff8-860a-8d8ae07301f5))
     (pin "2" (uuid a5319852-7204-4f15-b967-d25bfac329f3))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R4") (unit 1)
         )
@@ -2785,7 +2676,7 @@
     (pin "2" (uuid 94fef369-0517-4009-8175-b97d17a668da))
     (pin "3" (uuid 867c22c8-c83a-49a3-a5bf-5977fee8f494))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "RV4") (unit 1)
         )
@@ -2799,7 +2690,7 @@
     (property "Reference" "J10" (at 125.73 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Conn_1A" (at 118.11 100.33 0)
+    (property "Value" "Conn_1B" (at 128.27 100.33 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical" (at 123.19 90.17 0)
@@ -2816,7 +2707,7 @@
     (pin "6" (uuid 3076c54a-92dc-45bb-9f75-34c6d060f336))
     (pin "7" (uuid 8e036d1e-408c-461c-a425-a23365adf7f5))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "J10") (unit 1)
         )
@@ -2841,7 +2732,7 @@
     )
     (pin "1" (uuid acce0ddc-4e19-447c-9d98-5821e90c04c1))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR017") (unit 1)
         )
@@ -2866,7 +2757,7 @@
     )
     (pin "1" (uuid 96048ab5-857d-430e-84c0-cd1283767ca7))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR032") (unit 1)
         )
@@ -2900,7 +2791,7 @@
     (pin "1" (uuid 8280233d-dba3-486f-a4a6-dfd7504fde08))
     (pin "2" (uuid 54b07f91-51be-4c90-8467-bc88d2698dd1))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R33") (unit 1)
         )
@@ -2932,7 +2823,7 @@
     (pin "2" (uuid daea1e8c-b64a-451e-b0de-90e05c41335f))
     (pin "3" (uuid c68d2913-11d3-45ce-880b-9026213b8a72))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "RV6") (unit 1)
         )
@@ -2959,7 +2850,7 @@
     (pin "2" (uuid 9b3e844d-a2e3-478c-91a3-9cbeed71a451))
     (pin "3" (uuid 049e9497-47f6-4c72-9fe8-e55d541ba9e3))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "RV7") (unit 1)
         )
@@ -2989,7 +2880,7 @@
     )
     (pin "1" (uuid ff9486db-208a-4581-83a8-1a743e0c1dcd))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR04") (unit 1)
         )
@@ -3021,7 +2912,7 @@
     (pin "T" (uuid 581c01bb-c522-4659-b739-1873fb7adf86))
     (pin "TN" (uuid 74769634-1ed9-48ba-b971-68c41101036f))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "J9") (unit 1)
         )
@@ -3056,7 +2947,7 @@
     (pin "2" (uuid cde1bcc5-82a8-4174-b3b7-0f559cfd6e68))
     (pin "3" (uuid 15e38823-fb8e-4e52-a8ff-8060c3f9f888))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "U3") (unit 1)
         )
@@ -3090,7 +2981,7 @@
     (pin "1" (uuid 38ff5090-efe9-4aae-9d2a-cefb224430ab))
     (pin "2" (uuid 516ffe66-9bf6-404b-91d7-40dd7dcb443f))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R37") (unit 1)
         )
@@ -3120,7 +3011,7 @@
     )
     (pin "1" (uuid 63251525-ccb6-4013-a04b-48b6ee337b17))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR06") (unit 1)
         )
@@ -3159,7 +3050,7 @@
     (pin "8" (uuid 332c0ada-fed8-49c5-b8f2-72f92502889b))
     (pin "9" (uuid 7f519f15-2b2c-4a12-a211-0296e6179569))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "J7") (unit 1)
         )
@@ -3191,7 +3082,7 @@
     (pin "2" (uuid e616050b-2522-4e33-a1c1-972f685212bb))
     (pin "3" (uuid 27793db9-4d71-4ddd-9a9a-82c34265a3ae))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "RV5") (unit 1)
         )
@@ -3220,7 +3111,7 @@
     (pin "1" (uuid 57c5f40d-8648-47da-9d73-0560f94891d6))
     (pin "2" (uuid b4e0f330-b00c-42bc-9113-d9c09f96d95c))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "C2") (unit 1)
         )
@@ -3250,7 +3141,7 @@
     )
     (pin "1" (uuid 85af029a-fede-41d9-a5e4-637504e030b3))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR034") (unit 1)
         )
@@ -3284,7 +3175,7 @@
     (pin "1" (uuid 4a78ae8a-38d9-4fe5-b834-8708f1b4e797))
     (pin "2" (uuid 3d508b51-c76b-41ed-b4db-5b0cc75aa688))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "C8") (unit 1)
         )
@@ -3314,7 +3205,7 @@
     )
     (pin "1" (uuid 095e9f3e-6bc2-47a3-b7e7-3ace5ca32c63))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR030") (unit 1)
         )
@@ -3344,7 +3235,7 @@
     )
     (pin "1" (uuid 6cb8e153-e248-4d76-88f1-7cb94631017f))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR09") (unit 1)
         )
@@ -3378,7 +3269,7 @@
     (pin "1" (uuid 95021686-a941-4d92-8498-ae8beb33bd5f))
     (pin "2" (uuid 68fa1977-933e-4f87-9a6c-768e9ff4e38e))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R22") (unit 1)
         )
@@ -3403,7 +3294,7 @@
     )
     (pin "1" (uuid 32c7d7d0-0fda-484a-b142-138c084f4e0c))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR012") (unit 1)
         )
@@ -3435,7 +3326,7 @@
     (pin "2" (uuid dcb99658-a6df-4f1c-9e2d-aa9100d4d6c0))
     (pin "3" (uuid 244fcc6d-4dd3-4b7f-a70e-10a316f71da0))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "RV3") (unit 1)
         )
@@ -3467,7 +3358,7 @@
     (pin "T" (uuid cdb010e2-8a4a-4e6e-9562-da1147bc5d7a))
     (pin "TN" (uuid 1e5b0150-9d7c-476d-8d15-c7942b50844a))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "J6") (unit 1)
         )
@@ -3497,7 +3388,7 @@
     )
     (pin "1" (uuid c88ec59c-2b1b-4016-a477-13194af3b672))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR025") (unit 1)
         )
@@ -3531,7 +3422,7 @@
     (pin "1" (uuid b4faf838-c8e9-4c0b-be23-d4a7db6a4fbb))
     (pin "2" (uuid 7ff65c22-7ca4-4feb-8d23-b670dd66003d))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "C9") (unit 1)
         )
@@ -3565,7 +3456,7 @@
     (pin "1" (uuid 7b882185-132f-487b-8e79-05b487443080))
     (pin "2" (uuid c7525df5-f1e2-486c-832b-db173a071192))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R3") (unit 1)
         )
@@ -3595,7 +3486,7 @@
     )
     (pin "1" (uuid 5f4b37b1-c1c7-4a92-b986-eeeea5df41a8))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR046") (unit 1)
         )
@@ -3629,7 +3520,7 @@
     (pin "1" (uuid 4327a0f7-b500-4ee5-a87a-5872c75c4c2e))
     (pin "2" (uuid 90957ae0-98ad-41e3-b80f-07dbc9df1ee6))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R5") (unit 1)
         )
@@ -3659,7 +3550,7 @@
     )
     (pin "1" (uuid cb811760-36bd-4aac-9c1a-fbe5b62a8841))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR042") (unit 1)
         )
@@ -3693,7 +3584,7 @@
     (pin "1" (uuid 333d7ccd-b095-4814-a55a-a06830e35b13))
     (pin "2" (uuid 8d5107c8-a64d-44d1-993e-a3d9d6f62408))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R14") (unit 1)
         )
@@ -3723,7 +3614,7 @@
     )
     (pin "1" (uuid a28f7d14-7188-417d-8dd0-8587474ecb1d))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR05") (unit 1)
         )
@@ -3731,37 +3622,6 @@
       (project "CEM3340_VCO"
         (path "/eb39d4cc-e98a-4977-a50e-25b815ed0a29"
           (reference "#PWR0107") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:Conn_01x07_Socket") (at 121.92 90.17 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 4ee147da-dd5c-45d6-84bf-daca955a93c6)
-    (property "Reference" "J11" (at 118.11 78.74 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Conn_1B" (at 123.19 100.33 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" (at 121.92 90.17 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 121.92 90.17 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d6e01468-8f83-4882-81de-63f4c8448a7c))
-    (pin "2" (uuid 64252380-f0f9-4289-9a5c-f1f4af231323))
-    (pin "3" (uuid 04d9cd80-a0e8-461e-ae59-abb508eac924))
-    (pin "4" (uuid b4ee3296-a6ca-4ec2-b2a8-3c2f3ccd041c))
-    (pin "5" (uuid aacaa26f-2795-4001-93dd-e9c6d9ee6c63))
-    (pin "6" (uuid e7385315-246d-4eeb-9189-ea16fbc504f1))
-    (pin "7" (uuid d1bb954f-8941-4ee2-9ff8-fa6e49bd6fa9))
-    (instances
-      (project "Untitled"
-        (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
-          (reference "J11") (unit 1)
         )
       )
     )
@@ -3788,7 +3648,7 @@
     (pin "1" (uuid 04772ba9-291c-4afc-ba9a-ba37693a6490))
     (pin "2" (uuid 0a63f67d-5a1c-4c71-9d4d-2ce0a246986b))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R11") (unit 1)
         )
@@ -3818,7 +3678,7 @@
     )
     (pin "1" (uuid 6294d93d-46c4-4270-bb27-79085c7dd443))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR019") (unit 1)
         )
@@ -3848,7 +3708,7 @@
     )
     (pin "1" (uuid 8eaced0c-d176-44e7-806f-2777b4a214cd))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR02") (unit 1)
         )
@@ -3882,7 +3742,7 @@
     (pin "1" (uuid 312ed677-24c0-469a-918d-057b9e4a5c3b))
     (pin "2" (uuid 7b898939-5dd6-4689-8301-31aa7e52b361))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "C4") (unit 1)
         )
@@ -3916,7 +3776,7 @@
     (pin "1" (uuid 8d1a0b19-86e4-4428-850f-af9769c6b85f))
     (pin "2" (uuid b5375c0e-21c3-42c0-88d9-f956ce5808ff))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R15") (unit 1)
         )
@@ -3938,7 +3798,7 @@
     (property "Value" "AS3340" (at 77.47 31.1404 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_DIP:DIP-16_W10.16mm_LongPads" (at 77.47 26.67 0)
+    (property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" (at 77.47 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 77.47 26.67 0)
@@ -3961,7 +3821,7 @@
     (pin "8" (uuid 8964a2e7-a527-4947-b507-fa74e09c11b8))
     (pin "9" (uuid 2be43a43-116c-477d-8e0e-3cca93313e8b))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "U1") (unit 1)
         )
@@ -3995,7 +3855,7 @@
     (pin "1" (uuid 97a9d910-a043-4f91-90a2-5fbbb147cff7))
     (pin "2" (uuid 97ddde9f-84b1-4dbc-a089-fb94005cdbcc))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R25") (unit 1)
         )
@@ -4029,7 +3889,7 @@
     (pin "1" (uuid 87d5172e-916d-4628-8ff9-0970c236afc9))
     (pin "2" (uuid 3552fcfc-06ce-4de1-ac4c-2a2c960f2715))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R7") (unit 1)
         )
@@ -4059,7 +3919,7 @@
     )
     (pin "1" (uuid a08a1257-9908-4246-9385-36dac0878368))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR015") (unit 1)
         )
@@ -4089,7 +3949,7 @@
     )
     (pin "1" (uuid b536c266-b1dc-4399-80e6-0063ea980a9a))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR037") (unit 1)
         )
@@ -4123,7 +3983,7 @@
     (pin "1" (uuid 566811d9-feb6-453f-ae41-084211870fd5))
     (pin "2" (uuid 0823c283-cbe5-4a9d-ac42-0437880675da))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R1") (unit 1)
         )
@@ -4169,7 +4029,7 @@
     (pin "11" (uuid 3ac67f7b-d29d-4edb-b324-e73d4b703563))
     (pin "4" (uuid 66b73fd8-937d-434c-a893-b0712e291708))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "U2") (unit 1)
         )
@@ -4201,7 +4061,7 @@
     (pin "T" (uuid 1866e2d9-af10-4e56-b364-108ed2db4138))
     (pin "TN" (uuid 58c082b5-bf2f-4f01-98ea-e50fe7456462))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "J4") (unit 1)
         )
@@ -4235,7 +4095,7 @@
     (pin "1" (uuid d8a6f244-697a-4908-99be-ba4769a1bbaf))
     (pin "2" (uuid e934b217-ccb2-4c1b-b297-2e359c6398ef))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "C11") (unit 1)
         )
@@ -4265,7 +4125,7 @@
     )
     (pin "1" (uuid 05cf6ed8-51a7-4022-870c-7abe83c46d5e))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR043") (unit 1)
         )
@@ -4295,7 +4155,7 @@
     )
     (pin "1" (uuid e6808c20-fae8-4625-b127-70f87fcd34f9))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR031") (unit 1)
         )
@@ -4325,7 +4185,7 @@
     )
     (pin "1" (uuid 30e225f6-7a44-4756-93b2-34a999f7a6a8))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR049") (unit 1)
         )
@@ -4359,7 +4219,7 @@
     (pin "1" (uuid de8b6c75-1da7-4dd9-a675-e3489d9271e3))
     (pin "2" (uuid d3ff34ae-d111-4007-85fe-efe1b3472fac))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "C10") (unit 1)
         )
@@ -4389,7 +4249,7 @@
     )
     (pin "1" (uuid 8a2300bd-90fe-430d-ba78-25de05d59e47))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR026") (unit 1)
         )
@@ -4423,7 +4283,7 @@
     (pin "1" (uuid d1344777-926e-4fb4-a73d-11c3c19ce655))
     (pin "2" (uuid 482b716e-e5ab-4941-a81b-93e5010e9d21))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "C14") (unit 1)
         )
@@ -4453,7 +4313,7 @@
     )
     (pin "1" (uuid f782de15-701f-472b-b675-ebd2b78583c1))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR010") (unit 1)
         )
@@ -4487,7 +4347,7 @@
     (pin "1" (uuid f598767e-3525-4e95-9e17-bfd7b046747a))
     (pin "2" (uuid 78537f81-f7d7-47d7-85d8-818dc2bc4993))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R35") (unit 1)
         )
@@ -4519,7 +4379,7 @@
     (pin "T" (uuid 49e6ea09-37ff-4816-8a7b-95acded7761e))
     (pin "TN" (uuid 75b319ec-051b-4a36-88a7-dd3f1c056498))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "J8") (unit 1)
         )
@@ -4549,7 +4409,7 @@
     )
     (pin "1" (uuid 925adc84-e218-4699-97bc-49029050ba40))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR051") (unit 1)
         )
@@ -4579,7 +4439,7 @@
     )
     (pin "1" (uuid 57d48603-8663-4294-a2e7-825a1bbdf514))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR041") (unit 1)
         )
@@ -4604,7 +4464,7 @@
     )
     (pin "1" (uuid 5d9eac9c-2e85-4937-bd2c-676f8741893a))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR052") (unit 1)
         )
@@ -4629,7 +4489,7 @@
     )
     (pin "1" (uuid 19ef5b84-11e2-4081-ad77-b58e830b85ad))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR039") (unit 1)
         )
@@ -4659,7 +4519,7 @@
     )
     (pin "1" (uuid 1b43c76f-977d-4c1e-832d-5f34573aff5b))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR013") (unit 1)
         )
@@ -4693,7 +4553,7 @@
     (pin "1" (uuid cc834b8d-1466-45b6-a0e8-92c918970bde))
     (pin "2" (uuid cecb79ca-4d44-45d5-9b40-26f7d9f55ff1))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R6") (unit 1)
         )
@@ -4723,7 +4583,7 @@
     )
     (pin "1" (uuid 59c1b760-655c-4c8a-8f16-ee589f620dd2))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR024") (unit 1)
         )
@@ -4753,7 +4613,7 @@
     )
     (pin "1" (uuid 06f7454f-20ca-4ab3-b8e3-708f911020b1))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR035") (unit 1)
         )
@@ -4787,7 +4647,7 @@
     (pin "1" (uuid e8fa7f40-5971-42d3-bdfc-433e29ad29eb))
     (pin "2" (uuid 860ab7df-1154-4645-b2bb-473b9dd6c61c))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R8") (unit 1)
         )
@@ -4821,7 +4681,7 @@
     (pin "1" (uuid c4427c57-4ffb-45a0-a8ab-5a23a8b851c0))
     (pin "2" (uuid 984cc077-cb22-4d5b-95b6-56a11059645e))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R2") (unit 1)
         )
@@ -4851,7 +4711,7 @@
     )
     (pin "1" (uuid 21a83687-07d4-4ce0-88c9-cff6ff81a8b6))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR03") (unit 1)
         )
@@ -4885,7 +4745,7 @@
     (pin "1" (uuid 1af0b35c-d12f-46e1-940e-36b0fb11e400))
     (pin "2" (uuid 61195a3f-d747-4fb0-a48f-9ee03fbb8d52))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R12") (unit 1)
         )
@@ -4893,37 +4753,6 @@
       (project "CEM3340_VCO"
         (path "/eb39d4cc-e98a-4977-a50e-25b815ed0a29"
           (reference "R40") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:Conn_01x07_Socket") (at 152.4 90.17 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 8f57fc9d-2d84-493f-b632-ba00f2331708)
-    (property "Reference" "J12" (at 148.59 78.74 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Conn_2B" (at 153.67 100.33 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" (at 152.4 90.17 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 152.4 90.17 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7f3b5f54-3663-4bca-b9d0-b96726f2d872))
-    (pin "2" (uuid 0fba1a47-81b4-41a9-83ad-c7ee7dae585c))
-    (pin "3" (uuid 534ce421-c800-4e25-ba33-b1057e551c24))
-    (pin "4" (uuid d178ac0d-f2a7-48e7-9824-313f5014ead5))
-    (pin "5" (uuid a95b6994-4407-47aa-8890-e5faf5efeac7))
-    (pin "6" (uuid 4a1c2254-7a15-4766-b6de-e3bb600de4b1))
-    (pin "7" (uuid 3121675f-7557-4837-b22a-fdd5b9759f1e))
-    (instances
-      (project "Untitled"
-        (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
-          (reference "J12") (unit 1)
         )
       )
     )
@@ -4948,7 +4777,7 @@
     (pin "T" (uuid 6b53fa94-512c-418e-b2f0-de05e580cf1c))
     (pin "TN" (uuid 691ba0d8-6ec4-4e4b-a3c7-843c3d754b24))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "J5") (unit 1)
         )
@@ -4978,7 +4807,7 @@
     )
     (pin "1" (uuid 0b986723-70b3-47db-9430-60ea593bde3e))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR048") (unit 1)
         )
@@ -5003,7 +4832,7 @@
     )
     (pin "1" (uuid 58e022fa-46a8-427e-8f44-e21e0463b777))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR08") (unit 1)
         )
@@ -5037,7 +4866,7 @@
     (pin "1" (uuid bf38459e-bdd8-4fce-9a45-ce7c257ba0eb))
     (pin "2" (uuid 6a67af89-a9ce-47bc-a3b8-a4c9895cc96f))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R31") (unit 1)
         )
@@ -5067,7 +4896,7 @@
     )
     (pin "1" (uuid c2d486c9-a9a9-442a-a88f-b2e14491d2e9))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR033") (unit 1)
         )
@@ -5097,7 +4926,7 @@
     )
     (pin "1" (uuid a003067c-e8ec-457b-b2c3-3c989e66220f))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR047") (unit 1)
         )
@@ -5131,7 +4960,7 @@
     (pin "1" (uuid 6fb596d4-3539-473d-95d1-84f758421405))
     (pin "2" (uuid 615e200c-1a13-4a51-92cc-4d80c86ab63b))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R24") (unit 1)
         )
@@ -5161,7 +4990,7 @@
     )
     (pin "1" (uuid ca0b6a74-7dc4-41df-a2c9-be84aa0151a3))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR053") (unit 1)
         )
@@ -5191,7 +5020,7 @@
     )
     (pin "1" (uuid f0f0d084-84ca-41e4-9234-589ca67a1a52))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR040") (unit 1)
         )
@@ -5221,7 +5050,7 @@
     )
     (pin "1" (uuid c9aa2685-b438-46a0-828a-5bd230b56b5e))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR023") (unit 1)
         )
@@ -5246,7 +5075,7 @@
     )
     (pin "1" (uuid 7cea2693-c8ff-4579-a311-f15b451fdf76))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR045") (unit 1)
         )
@@ -5280,7 +5109,7 @@
     (pin "1" (uuid 1e5692c4-be15-40f1-ac3d-f71cc68d851f))
     (pin "2" (uuid b7eb6240-dd99-45c8-b316-f7d0194afd22))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R9") (unit 1)
         )
@@ -5310,7 +5139,7 @@
     )
     (pin "1" (uuid 65968800-d8bc-4e01-bc42-9c36f7640bd5))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR018") (unit 1)
         )
@@ -5335,7 +5164,7 @@
     )
     (pin "1" (uuid 19eddb11-bc76-4dec-ad3d-7cd760574b5d))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR028") (unit 1)
         )
@@ -5378,7 +5207,7 @@
     (pin "11" (uuid bbd063a6-aeb8-4b8c-a268-ebbbf9a70699))
     (pin "4" (uuid c70e44d4-07c6-4a23-a683-8fcc33f9985e))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "U2") (unit 3)
         )
@@ -5407,7 +5236,7 @@
     (pin "1" (uuid 320d2393-02d6-4f40-b638-c6b79316fd16))
     (pin "2" (uuid 9db3f4f9-22ab-4a32-a7d2-58629dcd4daf))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R10") (unit 1)
         )
@@ -5450,7 +5279,7 @@
     (pin "11" (uuid 8e22df20-2ecf-4397-866a-c903b2cd1dd2))
     (pin "4" (uuid 1f39a499-ffc6-4218-8e1d-ac7b7626137b))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "U2") (unit 4)
         )
@@ -5479,7 +5308,7 @@
     (pin "1" (uuid 6d70534d-f087-4c84-8d21-ebda2a62ff89))
     (pin "2" (uuid d509e412-cad7-48f3-b050-8ac4c23fa9e9))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "C7") (unit 1)
         )
@@ -5487,6 +5316,37 @@
       (project "CEM3340_VCO"
         (path "/eb39d4cc-e98a-4977-a50e-25b815ed0a29"
           (reference "C2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x07_Pin") (at 152.4 90.17 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b72fed34-777e-4bfc-ba6b-dd2a1f7bf1bc)
+    (property "Reference" "J12" (at 149.86 78.74 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_2A" (at 148.59 100.33 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical" (at 152.4 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 152.4 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1eccddee-2545-4135-a305-c3f19fb37ec7))
+    (pin "2" (uuid aa177afb-c0a6-4d31-91c4-9b2c084503fe))
+    (pin "3" (uuid 5ea46785-03ac-494d-8137-aefc32fa1b82))
+    (pin "4" (uuid cbdda856-1910-4cf5-934d-a1f838268e3a))
+    (pin "5" (uuid da813cf4-0fed-47f8-8376-0fca53c311fd))
+    (pin "6" (uuid 6fe3ae9a-fc46-4030-b6f4-890cfe79f1d6))
+    (pin "7" (uuid abc72b18-8403-4a38-b333-b2b7af4436f8))
+    (instances
+      (project "3340_VCO"
+        (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
+          (reference "J12") (unit 1)
         )
       )
     )
@@ -5513,7 +5373,7 @@
     (pin "1" (uuid 8125c77c-6b21-44fb-8043-8cbf6a94b153))
     (pin "2" (uuid f0bdbb7a-9c6c-464f-975e-9e81e685a385))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "C1") (unit 1)
         )
@@ -5547,7 +5407,7 @@
     (pin "1" (uuid a39c4fe8-1a09-42a3-a745-5f55d115d9d6))
     (pin "2" (uuid c70a72c5-ef65-48e4-a744-dcb50152188c))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "C5") (unit 1)
         )
@@ -5581,7 +5441,7 @@
     (pin "1" (uuid f766a043-6f01-47f3-af8a-b16dd6751a27))
     (pin "2" (uuid b614392a-6a93-4fe3-9cf9-2446b33553e4))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R28") (unit 1)
         )
@@ -5611,7 +5471,7 @@
     )
     (pin "1" (uuid 9a5c01bd-7648-47ad-85df-0a54030d00fe))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR07") (unit 1)
         )
@@ -5645,7 +5505,7 @@
     (pin "1" (uuid a7e12225-8021-4cfb-9931-672588d5d4d1))
     (pin "2" (uuid ebbd1844-aa71-4b8a-9cad-1fd086de18bc))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R20") (unit 1)
         )
@@ -5675,7 +5535,7 @@
     )
     (pin "1" (uuid 1a6a1b74-c270-4331-a8a6-7819186b44dd))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR044") (unit 1)
         )
@@ -5705,7 +5565,7 @@
     )
     (pin "1" (uuid 564d06eb-a2c7-4b2c-b4ff-0a1fc23ab365))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR020") (unit 1)
         )
@@ -5739,7 +5599,7 @@
     (pin "1" (uuid fffba5fb-fb17-41f3-b222-8f4c4f4514b3))
     (pin "2" (uuid 9524f2f0-7438-423e-9305-c632f831ca2f))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R19") (unit 1)
         )
@@ -5766,7 +5626,7 @@
     (pin "T" (uuid cef12688-420f-49a9-aa7e-c1dc648a8ca1))
     (pin "TN" (uuid 5115c096-5b43-42ae-a601-127bd03d5221))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "J2") (unit 1)
         )
@@ -5812,7 +5672,7 @@
     (pin "11" (uuid eb7e85f6-c40b-4433-999e-839ba46f394e))
     (pin "4" (uuid d57f7301-92b8-42aa-85ee-7ecd482f10aa))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "U2") (unit 5)
         )
@@ -5846,7 +5706,7 @@
     (pin "1" (uuid ef2923af-2d6d-4006-9b95-77e25ff96b18))
     (pin "2" (uuid b1d1f775-bb2f-4a16-b6a3-d55267f8e2bb))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "C13") (unit 1)
         )
@@ -5876,7 +5736,7 @@
     )
     (pin "1" (uuid e9d3a8f6-9afb-4f7f-ad41-989afa3e5344))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR021") (unit 1)
         )
@@ -5910,7 +5770,7 @@
     (pin "1" (uuid 8a98ee24-18db-4e29-9af5-bc8aa053e2e7))
     (pin "2" (uuid d6400f88-d556-4202-929d-9bd1304945be))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R26") (unit 1)
         )
@@ -5940,7 +5800,7 @@
     )
     (pin "1" (uuid da418119-5379-4a76-8971-c64864297cbe))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR054") (unit 1)
         )
@@ -5965,7 +5825,7 @@
     )
     (pin "1" (uuid c3a7d2a5-556c-4ef2-b7c2-72569076ccca))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR027") (unit 1)
         )
@@ -5994,7 +5854,7 @@
     (pin "1" (uuid e8be219b-e1cd-425a-b3ee-89349f129f7c))
     (pin "2" (uuid fab2f9b5-ae2e-42b0-a7f4-f737443d8424))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R18") (unit 1)
         )
@@ -6024,7 +5884,7 @@
     )
     (pin "1" (uuid 869773c7-32ff-4902-a618-516c56e44721))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR050") (unit 1)
         )
@@ -6049,7 +5909,7 @@
     )
     (pin "1" (uuid 8169391f-a62c-4b06-9154-e743d909fc71))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR016") (unit 1)
         )
@@ -6079,7 +5939,7 @@
     )
     (pin "1" (uuid cccc02ac-b9c3-4e42-931c-2a003684fffb))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR038") (unit 1)
         )
@@ -6109,7 +5969,7 @@
     )
     (pin "1" (uuid c0828e58-de0d-4924-9540-3e5c1f29ba49))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR036") (unit 1)
         )
@@ -6139,7 +5999,7 @@
     )
     (pin "1" (uuid 2d513c37-306c-4cd7-b7c5-e36c401253a9))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR014") (unit 1)
         )
@@ -6173,7 +6033,7 @@
     (pin "1" (uuid bbbd4ad5-e21b-4ec1-896a-64952ad891b0))
     (pin "2" (uuid cc5130fd-4853-44a8-ab9e-6268479c0172))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "C12") (unit 1)
         )
@@ -6205,7 +6065,7 @@
     (pin "2" (uuid 6dc17972-5b3a-4a1d-b960-c144c8a15238))
     (pin "3" (uuid a6a43780-d893-43ac-8d41-7eaeccc93ccd))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "RV2") (unit 1)
         )
@@ -6239,7 +6099,7 @@
     (pin "1" (uuid c74f01b2-66b3-4354-923b-0c7a6e70d8ba))
     (pin "2" (uuid 6f4c7a64-78c3-45d6-a763-cee75771a50c))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R23") (unit 1)
         )
@@ -6268,7 +6128,7 @@
     (pin "1" (uuid 6e92e619-0d9f-4a71-a10d-15ed49c77e6c))
     (pin "2" (uuid 9301c2bd-a17a-4a6a-a8ef-2852e28fee4c))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R30") (unit 1)
         )
@@ -6298,7 +6158,7 @@
     )
     (pin "1" (uuid 741f82c8-a77b-41d3-b085-bca32df73a0d))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR011") (unit 1)
         )
@@ -6330,7 +6190,7 @@
     (pin "2" (uuid 85492aa6-3d35-4424-9068-fb6f1fc43c1c))
     (pin "3" (uuid 0f8a8413-c64e-474f-baa3-e056fa05b625))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "RV1") (unit 1)
         )
@@ -6364,7 +6224,7 @@
     (pin "1" (uuid 2835e9a9-51c6-47c4-b700-f64a59208140))
     (pin "2" (uuid 376a7b9b-62f0-4f45-a5df-e46a26838f93))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R32") (unit 1)
         )
@@ -6398,7 +6258,7 @@
     (pin "1" (uuid 49d7d00f-92f6-42da-ab58-35cf1e72bd8c))
     (pin "2" (uuid 073b4308-df6c-469c-8d18-b991e981b2fa))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R27") (unit 1)
         )
@@ -6428,7 +6288,7 @@
     )
     (pin "1" (uuid 7f6fd7c5-4a1a-4ac7-b302-c363f2cbc347))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "#PWR022") (unit 1)
         )
@@ -6457,7 +6317,7 @@
     (pin "1" (uuid 61d47919-8807-448d-b0e3-b9338d294af9))
     (pin "2" (uuid 41982c89-68d4-4d4b-8991-2f0a22d892c8))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R16") (unit 1)
         )
@@ -6489,7 +6349,7 @@
     (pin "T" (uuid 6a06d9ae-c87e-4499-92b1-45ac5e2d5b52))
     (pin "TN" (uuid bd4cdfd0-e79c-470d-a80a-c1df735c7f56))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "J1") (unit 1)
         )
@@ -6523,7 +6383,7 @@
     (pin "1" (uuid f8042e43-0cc4-435b-b06d-52d0b5e90e05))
     (pin "2" (uuid 36edb33b-192b-4056-ab24-77dd8fada749))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R29") (unit 1)
         )
@@ -6557,7 +6417,7 @@
     (pin "1" (uuid 1527a5b4-19a6-47ce-a008-068c9cb95bf0))
     (pin "2" (uuid 89d631d6-a1f2-4370-95e0-4e11c71a8290))
     (instances
-      (project "Untitled"
+      (project "3340_VCO"
         (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
           (reference "R36") (unit 1)
         )
