@@ -3349,6 +3349,41 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 130.81 251.46 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 6f372292-0681-44b1-af86-7d5a2e6ef7b7)
+    (property "Reference" "#PWR037" (at 130.81 257.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 130.81 256.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 130.81 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 130.81 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d595a473-8d05-4fa5-833c-67c9eebbf286))
+    (instances
+      (project "3340_VCO"
+        (path "/4db98d30-3bd7-4b4d-89f4-e727fe5b2269"
+          (reference "#PWR037") (unit 1)
+        )
+      )
+      (project "555_ADSR"
+        (path "/99a6a6a6-0bd7-49b0-8c76-b750d640b8ad"
+          (reference "#PWR035") (unit 1)
+        )
+      )
+      (project "CEM3340_VCO"
+        (path "/eb39d4cc-e98a-4977-a50e-25b815ed0a29"
+          (reference "#PWR0147") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R_Potentiometer") (at 261.62 144.78 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 70496db1-7b3d-41a8-be60-e7a105f69155)
