@@ -1,4 +1,4 @@
-Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+Ref,Val,Package,Mid X,Mid Y,Rotation,Layer
 C1,100nF,C_0603_1608Metric,120.975,-88.65,0,top
 C2,10nF,C_0603_1608Metric,117.7,-96.25,0,top
 C3,10nF,C_0603_1608Metric,117.7,-91.15,0,top
@@ -13,6 +13,8 @@ C11,10uF,CP_Elec_6.3x5.4,120.55,-140.85,-90,top
 C12,100nF,C_0603_1608Metric,135.05,-117.44,180,top
 C13,100nF,C_0603_1608Metric,142.14,-101.36,90,top
 C14,10uF,CP_Elec_6.3x5.4,138.55,-140.85,-90,top
+J11,Conn_1A,PinSocket_1x07_P2.54mm_Vertical,111.85,-87.95,0,top
+J12,Conn_2A,PinSocket_1x07_P2.54mm_Vertical,147.3,-129.15,0,top
 R1,24k,R_0603_1608Metric,138.15,-88.65,0,top
 R2,1M,R_0603_1608Metric,117.7,-93.75,0,top
 R3,5K6,R_0603_1608Metric,138.15,-91.25,0,top
@@ -23,7 +25,7 @@ R7,1M5,R_0603_1608Metric,120.95,-96.25,180,top
 R8,470R,R_0603_1608Metric,120.95,-98.85,180,top
 R9,100K,R_0603_1608Metric,141.4,-98.85,180,top
 R10,100K,R_0603_1608Metric,141.4,-96.35,180,top
-R11,10M,R_0603_1608Metric,131.55,-97.5,90,top
+R11,10M,R_0603_1608Metric,130.48,-97.5,90,top
 R12,200K,R_0603_1608Metric,138.15,-98.85,0,top
 R13,180K,R_0603_1608Metric,138.15,-96.35,180,top
 R14,1K,R_0603_1608Metric,140.05,-112.2,180,top

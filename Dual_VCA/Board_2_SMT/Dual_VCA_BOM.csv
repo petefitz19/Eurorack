@@ -1,0 +1,12 @@
+Comment,Designator,Footprint,LCSC Part Number
+10uF,"C1,C2",CP_Elec_6.3x5.4,C5221839
+100nF Unpolarized capacitor,"C3,C4,C5,C6",C_0603_1608Metric,C1591
+"2N3904 0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92","Q1,Q2,Q3,Q4,Q5,Q6",SOT-23,C18536
+100k Resistor,"R1,R2,R28,R29",R_0603_1608Metric,C25803
+10k Resistor,"R3,R4,R5,R30,R31,R32",R_0603_1608Metric,C25804
+33k Resistor,"R6,R27",R_0603_1608Metric,C4216
+15k Resistor,"R7,R8,R9,R10,R18,R19,R20,R22",R_0603_1608Metric,C22809
+1K Resistor,"R11,R14,R16,R21,R24,R25",R_0603_1608Metric,C21190
+150k Resistor,"R12,R13,R17,R26",R_0603_1608Metric,C22807
+200k Resistor,"R15,R23",R_0603_1608Metric,C25811
+"TL072 Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8","U1,U2",SOP-8_3.9x4.9mm_P1.27mm,C67473
